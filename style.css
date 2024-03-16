@@ -1,0 +1,181 @@
+.concert-one-regular {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+  }
+  .concert-one-light {
+    font-family: "Concert One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+
+.top-page{
+    background-color: #0C2D57;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,1fr);
+    color: #FC6736;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+
+#name{
+    
+    font-size: 80px;
+    text-align: left;
+    
+}
+
+
+.el-messiri {
+    font-family: "El Messiri", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.profile-pic > img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+}
+
+.description{
+    width: 100%;
+    background-color: #0C2D57;
+    
+}
+.description-text{
+    
+    border-radius: 10%;
+    color:#FC6736;
+    text-align: center;
+}
+.container{
+    background-color:  #FFB0B0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius:15px;
+    
+}
+
+hr.break{
+    border: 2px solid #EFECEC;
+    border-radius: 5px;
+  }
+
+
+.skills-container{
+    height: fit-content;
+    width: 100%;
+    background-color: #EFECEC;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#skill{
+    margin: 20px;
+    height: 300px;
+    width: 450px;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+#skill > img {
+    height: 300px;
+    width: 450px;
+    border-radius: 15px;
+}
+.skills-text{
+    height: 300px;
+    width: 450px;
+    position: absolute;
+    color: #FC6736;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+.skills-text > h3{
+    grid-area: 3/ 1 /4 /7;
+    text-align: center;
+    font-size: 60px;
+}
+.skills-text > p{
+    grid-area: 4/2/6/6;
+    text-align: center;
+    font-size: 15px;
+}
+
+.contact{
+    background-color: #0C2D57;
+}
+
+.display-5{
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+}
+
+.lead{
+    font-family: "Concert One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.btn{
+    background: #FC6736;
+    background-image: -webkit-linear-gradient(top, #FC6736, #FC6736);
+    background-image: -moz-linear-gradient(top, #FC6736, #FC6736);
+    background-image: -ms-linear-gradient(top, #FC6736, #FC6736);
+    background-image: -o-linear-gradient(top, #FC6736, #FC6736);
+    background-image: linear-gradient(to bottom, #FC6736, #FC6736);
+
+    border-radius: 8px;
+    font-family: "Concert One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #EFECEC;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.col-lg-6{
+    margin: 50px;
+}
+.py-3{
+    background-color: #FFB0B0;
+}
+
+@media (max-width:890px) {
+    #name{
+        font-size: 30px;
+    }
+    .profile-pic > img{
+        border-radius: 50%;
+        border: 10xpx;
+        height: 100px;
+        width: 100px;
+    }
+    #skill > img {
+        height: 250px;
+        width: 350px;
+    }
+
+}
