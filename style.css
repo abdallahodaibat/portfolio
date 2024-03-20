@@ -78,11 +78,12 @@ hr.break{
 .skills-container{
     height: fit-content;
     width: 100%;
-    background-color: #EFECEC;
+    background-color: #0C2D57;
     border-radius: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 10px;
 
 }
 
@@ -106,7 +107,9 @@ hr.break{
     height: 300px;
     width: 450px;
     position: absolute;
-    color: #FC6736;
+    background-image: linear-gradient(120deg, #FC6736, #EFECEC);
+    background-clip: text;
+    color: transparent;
     display: grid;
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(6,1fr);
@@ -114,7 +117,7 @@ hr.break{
 .skills-text > h3{
     grid-area: 3/ 1 /4 /7;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
 }
 .skills-text > p{
     grid-area: 4/2/6/6;
@@ -161,6 +164,9 @@ hr.break{
 }
 .py-3{
     background-color: #FFB0B0;
+}
+.contact-head{
+    color: #EFECEC;
 }
 
 @media (max-width:890px) {
